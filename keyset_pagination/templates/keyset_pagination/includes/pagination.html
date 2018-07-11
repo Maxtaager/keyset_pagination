@@ -1,0 +1,9 @@
+<div class="pagination">
+    {% if page_obj.has_previous %}
+        <a href="?first_id={{ page_obj.first_id }}">previous</a>
+    {% endif %}
+
+    {% if page_obj.has_next %}
+        <a href="?last_id={{ page_obj.last_id }}">next</a>
+    {% endif %}
+</div>

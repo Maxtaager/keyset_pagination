@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% for object in object_list %}
+        {{ object.name }} <br>
+        {% endfor %}
+        {% include 'keyset_pagination/includes/pagination.html' %}
+    </body>
+</html>
