@@ -10,4 +10,4 @@ class KeySetModel(models.Model):
     name = models.TextField()
 
     def __unicode__(self):
-        return unicode(self.id)
+        return str(self.id)

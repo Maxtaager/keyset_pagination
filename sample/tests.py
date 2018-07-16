@@ -1,6 +1,6 @@
-from django.test import TransactionTestCase, TestCase
+from django.test import TestCase
 from keyset_pagination.Paginator import KeysetPaginator
-from keyset_pagination.models import KeySetModel
+from sample.models import KeySetModel
 from django.db import connection
 
 

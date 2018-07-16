@@ -9,7 +9,7 @@ setup(
     author_email=__email__,
     zip_safe=False,
     include_package_data=True,
-    packages=find_packages(exclude=[]),
+    packages=find_packages('keyset_pagination'),
     install_requires=[
         open("requirements.txt").readlines(),
     ],
