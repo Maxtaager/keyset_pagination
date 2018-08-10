@@ -8,8 +8,8 @@ setup(
     author=__author__,
     author_email=__email__,
     zip_safe=False,
-    include_package_data=True,
-    packages=find_packages('keyset_pagination'),
+    include_package_data=False,
+    packages=find_packages('.', include=('keyset_pagination', )),
     install_requires=[
         open("requirements.txt").readlines(),
     ],
